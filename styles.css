@@ -1,1 +1,92 @@
+/* Color Palette:
+Light Shades: #ffffff;
+Light Accent: #f2f4f7;
+Main Brand Color: ##a5c2e8;
+Dark Accent: #77698c;
+Dark Shades: #605570;
+*/
 
+* {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 16px; 
+  padding: 16px;
+}
+
+#profile-pic {
+  width: 150px;      
+  height: auto;
+  border-radius: 50%; 
+  display: inline-block;
+}
+
+.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #2b7a78; 
+  margin: 0;
+}
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 8px 16px;
+  background: transparent; 
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 18px;
+}
+
+.navbar .navlink {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0f2b2b;
+  padding: 6px 8px;
+}
+
+.navbar .navlink:hover {
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+/* making the columns */
+.column {
+  flex: 1;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.row .column:nth-child(2) {
+  flex: 2;
+}
+
+/* alternating background colors (light - white - light) */
+.row .column:nth-child(1) {
+  background-color: #f2f4f7; 
+}
+
+.row .column:nth-child(2) {
+  background-color: #ffffff;
+}
+
+.row .column:nth-child(3) {
+  background-color: #f2f4f7; 
+}
+
+footer {
+  text-align: center;
+  padding: 12px;
+  font-size: 14px;
+  color: #154b4f;
+}
