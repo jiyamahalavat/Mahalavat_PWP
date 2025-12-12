@@ -19,7 +19,7 @@ header {
 
 #profile-picture {
   width: 400px;      
-  height: auto;
+  height: 200;
   border-radius: 50%; 
   display: inline-block;
 }
